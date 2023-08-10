@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+.seccion1{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.seccion2{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 264px;
+    height: 383px;
+    top: 330px;
+    left: 240px;
+    justify-content: space-between;
+}
