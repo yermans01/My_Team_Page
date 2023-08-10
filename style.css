@@ -1,23 +1,50 @@
-*{
+*,*::after,*::before{
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
-.seccion1{
-    padding-top: 80px;
-    display: flex;
-    justify-content: space-evenly;
+
+.contenedor{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 2fr repeat(9, 1fr) 2fr;
+    gap: 4rem 6rem;
 }
-.seccion2{
-    padding-top: 80px;
-    display: flex;
-    justify-content: space-evenly;
+.perfil1{
+    grid-column: 2/5;
+    grid-row: 1/7;
 }
 
+.perfil2 {
+    grid-column: 5/8;
+    grid-row: 2/5;
+}
+.perfil3{
+    grid-column: 8/11;
+    grid-row: 1/4;
+}
+
+.perfil4 {
+    grid-column: 2/5;
+    grid-row: 4/6;
+}
+
+.perfil5 {
+    grid-column: 5/8;
+    grid-row: 5/7;
+}
+.perfil6 {
+    grid-column: 8/11;
+    grid-row: 4/6;
+}
+
+
+
+
+
+
 img{
-    width: 264px;
-    height: 383px;
-    top: 330px;
-    left: 240px;
-    justify-content: space-between;
+        width: 100%;
+        object-fit: contain;
+    
 }
