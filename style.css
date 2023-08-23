@@ -29,41 +29,75 @@ header{
 
 .contenedor{
     display: grid;
-    grid-template-rows: repeat(6, 1fr);
     grid-template-columns: 2fr repeat(9, 1fr) 2fr;
+    grid-template-rows: repeat(6, 1fr);
     gap: 4rem 6rem;
 }
+
 .perfil1{
     grid-column: 2/5;
     grid-row: 1/7;
 }
 .cargo1{
-    -webkit-transform: rotate(90deg); 
-    grid-column: 5/3;
-    grid-row: 1/2;
+    grid-column-start: 4;
+    grid-row: 1/1;
+    display: inline;
+    writing-mode: vertical-lr;
 }
 
 .perfil2 {
     grid-column: 5/8;
-    grid-row: 2/5;
+    grid-row: 2/4;
 }
+.cargo2{
+    grid-column: 7/8;
+    grid-row: 2/4;
+    display: inline;
+    writing-mode: vertical-lr;
+}
+
 .perfil3{
     grid-column: 8/11;
     grid-row: 1/4;
+}
+.cargo3{
+    grid-column: 10/11;
+    grid-row: 1/4;
+    display: inline;
+    writing-mode: vertical-lr;
 }
 
 .perfil4 {
     grid-column: 2/5;
     grid-row: 4/6;
 }
+.cargo4{
+    grid-column: 4/5;
+    grid-row: 4/6;
+    display: inline;
+    writing-mode: vertical-lr;
+}
 
 .perfil5 {
     grid-column: 5/8;
     grid-row: 5/7;
 }
+
+.cargo5{
+    grid-column: 7/8;
+    grid-row: 5/7;
+    display: inline;
+    writing-mode: vertical-lr;
+}
 .perfil6 {
     grid-column: 8/11;
     grid-row: 4/6;
+}
+.cargo6{
+    grid-column: 10/11;
+    grid-row: 4/6;
+    display: inline;
+    writing-mode: vertical-lr;
 }
 
 
