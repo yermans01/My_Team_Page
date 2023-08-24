@@ -38,23 +38,59 @@ img{
     grid-template-columns:1fr repeat(6, 1fr) 1fr;
 }
 .perfil1{
-    grid-column: 2/2;
+    grid-column: 2;
 }
 
-.cargo{
+.cargo1{
+    grid-column: 3;
     writing-mode: vertical-lr;
 }
+.perfil2{
+    grid-column: 4;
+}
+
+.cargo2{
+    grid-column: 5;
+    writing-mode: vertical-lr;
+}
+.perfil3{
+    grid-column: 6;
+}
+
+.cargo3{
+    grid-column: 7;
+    writing-mode: vertical-lr;
+}
+
 .perfil4{
-    grid-column: 2/2;
-    grid-row: 2/2;
+    grid-column: 2;
+    grid-row: 2;
 }
+
+.cargo4{
+    grid-column: 3;
+    writing-mode: vertical-lr;
+}
+
 .perfil5{
-    grid-column: 4/5;
-    grid-row: 2/4;
+    grid-column: 4;
+    grid-row: 2;
 }
+
+.cargo5{
+    grid-column: 5;
+    writing-mode: vertical-lr;
+}
+
+
 .perfil6{
-    grid-column: 6/6;
-    grid-row: 2/2;
+    grid-column: 6;
+    grid-row: 2;
+}
+
+.cargo6{
+    grid-column: 7;
+    writing-mode: vertical-lr;
 }
 /*
 *,*::after,*::before{
