@@ -5,6 +5,65 @@
 }
 
 header{
+    padding: 90px 190px 100px 220px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.titulo{
+    font-family: "Pt serif";
+    size: 36px;
+}
+.titulo2{
+    font-family: "Poppins";
+    size: 18px;
+    padding-left: 50px;
+}
+.info{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 50px 0 50px;
+    align-items: justify;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns:1fr repeat(6, 1fr) 1fr;
+}
+.perfil1{
+    grid-column: 2/2;
+}
+
+.cargo{
+    writing-mode: vertical-lr;
+}
+.perfil4{
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+.perfil5{
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.perfil6{
+    grid-column: 6/6;
+    grid-row: 2/2;
+}
+/*
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+header{
     padding: 100px 150px 160px 170px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -107,3 +166,4 @@ img{
         object-fit: contain;
     
 }
+*/
