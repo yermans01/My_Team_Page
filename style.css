@@ -5,7 +5,7 @@
 }
 
 header{
-    padding: 90px 190px 100px 220px;
+    padding: 90px 200px 100px 320px;
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
@@ -32,12 +32,14 @@ p{
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
+    margin-left: 10px;
 }
 
 
 .titulo{
     font-family: "Pt serif";
     size: 36px;
+    padding-left: 40px;
 }
 .titulo2{
     font-family: "Poppins";
@@ -48,13 +50,13 @@ p{
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 400;
-    padding: 8px 200px 0 50px;
+    padding: 8px 400px 0 50px;
     align-items: justify;
 }
 
 .contenedor{
     display: grid;
-    grid-template-columns:1fr repeat(6, 1fr) 1fr;
+    grid-template-columns:1.5fr repeat(6, 1fr) 1fr;
 }
 .perfil1{
     grid-column: 2;
@@ -70,10 +72,8 @@ p{
 
 .perfil2{
     grid-column: 4;
-    width: 238px;
     height: 347px;
     margin-top: 129px;
-    left: 571px;
 }
 
 .cargo2{
@@ -84,11 +84,8 @@ p{
 
 .perfil3{
     grid-column: 6;
-    width: 238px;
     height: 341px;
     top: 330px;
-    left: 901px;
-
 }
 
 .cargo3{
@@ -135,4 +132,37 @@ footer{
     padding-top: 100px;
     color: #A9A9A9;
     ;
+}
+
+@media screen and (max-width: 780px) {
+    header{
+        display: grid;
+        grid-template-rows: 15% 15%;
+        grid-template-columns: 100%;
+        padding: 0;
+    }
+    .titulo{
+        padding-left: 1px;
+        width: 278px;
+        height: 47px;
+        margin-top: 71px;
+        margin-left: 12px;
+    }
+    h1{
+        font-family: "PT Serif";
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+        text-align: left;
+    }
+    .titulo2{
+        padding-left: 1px;
+        margin-top: 100px;
+        margin-left: 12px;
+    }
+    .info{
+        padding: 14px 10px 1px 12px;
+    }
+    
 }
