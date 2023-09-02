@@ -49,5 +49,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 
-- GitHub [@your-username](https://github.com/yermans01)
+- GitHub [@yermans01](https://github.com/yermans01)
 
