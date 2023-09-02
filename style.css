@@ -5,7 +5,7 @@
 }
 
 header{
-    padding: 90px 100px 100px 320px;
+    padding: 90px 100px 10px 120px;
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
@@ -50,7 +50,7 @@ p{
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 400;
-    padding: 8px 90px 100px 50px;
+    padding: 8px 10px 50px 50px;
     align-items: justify;
 }
 
